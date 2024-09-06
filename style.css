@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'StratosSkyeng', sans-serif;
+    position: relative;
+}
+
+.card {
+    width: 358px;
+    height: 530px;
+    top: 231px;
+    left: 556px;
+    gap: 0px;
+    border-radius: 25px;
+    border: 2px solid #363062;
+    opacity: 0px;
+}
+
+.worker {
+    width: 298px;
+    height: 262px;
+    top: 261px;
+    left: 586px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.card__button {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F99417;
+    padding: 9px 26px;
+    /* Это чтобы при наведении на кнопку курсор мыши менялся на руку */
+    cursor: pointer;
+}
+
+/* Эффект наведения курсора мыши на элемент с классом card__button */
+.card__button:hover {
+    /* Прозрачность всего элемента  - такое значение говорит браузеру показывать только 70% элемента по прозрачности */
+    opacity: .7;
+}
+
+.icon {
+    width: 20px;
+    color: #363062;
+}
